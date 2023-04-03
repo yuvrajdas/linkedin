@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  border: 1px solid red;
+  padding: 5px 10%;
+  justify-content: space-between;
+
+  .menues{
+    display: flex;
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 40px;
+      align-items: center;
+      li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:2px;
+        cursor: pointer;
+      }
+      img{
+        height: 15px;
+      }
+      .link-name{
+        color:#00000099;
+        font-size: 11px;
+      }
+    }
+    .vl{
+      border-right: 1px solid #0000004d;
+      margin-right: 5px;
+      margin-left: 20px;
+
+    }
+    .profile {
+      display: flex;
+      gap: 10px;
+      .profile-btn {
+        border-radius: 20px;
+        display: flex !important;
+        border: 1px solid #0a66c2;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 40px;
+        width: 130px;
+        background: transparent;
+        color: #0a66c2;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .join-btn {
+        height: 40px;
+        width: 110px;
+        border-radius: 20px;
+      }
+    }
+  }
+
+}

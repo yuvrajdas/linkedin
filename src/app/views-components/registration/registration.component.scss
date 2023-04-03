@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Thasadith&display=swap');
+
+.container{
+  padding: 0px 10%;
+  margin-top: 50px;
+  .form-section{
+      max-width: 50%;
+    .heading{
+      font-family: 'Thasadith', sans-serif;
+      font-size: 56px;
+      padding: 10px;
+      color: #8f5849;
+      word-wrap: break-word;
+      font-weight: 550;
+    }
+  }
+
+  .poster{
+    max-width: 50%;
+  }
+}
+
+// .heading{
+//   font-size:70px;
+// }
